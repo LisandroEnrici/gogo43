@@ -1,7 +1,10 @@
+import Banner from "./sections/banner/banner";
 
 function App() {
   return (
-    <h1>Hello world</h1>
+  <>
+    <Banner />
+  </>
   )
 }
 
