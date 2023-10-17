@@ -21,3 +21,36 @@
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+#bottom-section {
+  position: absolute;
+  width: -webkit-fill-available;
+  text-align: center;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at 50% 200%,
+    var(--color-tertiary) 0%,
+    transparent 60%
+  );
+  background-size: 200% 120%;
+  background-position: top;
+  animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    background-size: 200% 120%;
+  }
+  20% {
+    background-size: 200% 100%;
+  }
+  40% {
+    background-size: 200% 120%;
+  }
+  60% {
+    background-size: 200% 100%;
+  }
+  80% {
+    background-size: 200% 120%;
+  }
+}
