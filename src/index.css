@@ -10,6 +10,11 @@
   --color-secondary: #cf4730;
   --color-tertiary: #ff00b5;
 
+  --neon-shadow: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb, 0 0 19px #f9f3fb,
+    0 0 40px var(--color-tertiary), 0 0 80px var(--color-tertiary),
+    0 0 120px var(--color-tertiary), 0 0 150px var(--color-tertiary),
+    0 0 300px var(--color-tertiary);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,8 +23,8 @@
 }
 
 @font-face {
-  font-family: 'Freehand';
-  src: url('./fonts/Freehand-Regular.ttf') format('truetype');
+  font-family: "Freehand";
+  src: url("./fonts/Freehand-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -52,15 +57,7 @@ section,
   font-size: 35px;
   color: #f9f3fb;
   font-family: "Freehand", cursive;
- text-shadow:
-      0 0 4px #f9f3fb,
-      0 0 11px #f9f3fb,
-      0 0 19px #f9f3fb,
-      0 0 40px var(--color-tertiary),
-      0 0 80px var(--color-tertiary),
-      0 0 120px var(--color-tertiary),
-      0 0 150px var(--color-tertiary),
-      0 0 300px var(--color-tertiary);
+  text-shadow: var(--neon-shadow);
 }
 
 h1 {

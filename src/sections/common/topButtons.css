@@ -4,17 +4,6 @@
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  background: radial-gradient(
-      ellipse at left top,
-      rgba(0, 0, 0, 0.5) 5%,
-      transparent 20%
-    ),
-    radial-gradient(
-      ellipse at right top,
-      rgba(0, 0, 0, 0.5) 5%,
-      transparent 20%
-    );
-  background-size: 100% 350%;
 }
 
 .icon-button {
@@ -26,4 +15,16 @@
   font-size: 25px;
   color: white;
   cursor: pointer;
+}
+
+.icon-button svg {
+  box-shadow: var(--neon-shadow);
+}
+
+#whatsapp-icon {
+  border-radius: 50%;
+}
+
+#instagram-icon {
+  border-radius: 8px;
 }

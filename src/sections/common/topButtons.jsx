@@ -6,10 +6,13 @@ function TopButtons() {
   return (
     <div id="top-buttons-container">
       <a className="icon-button" href="https://wa.me/+393293122956">
-        <BsWhatsapp />
+        <BsWhatsapp id="whatsapp-icon" />
       </a>
-      <a className="icon-button" href="https://www.instagram.com/gogo43.loungebarbistro">
-        <BsInstagram />
+      <a
+        className="icon-button"
+        href="https://www.instagram.com/gogo43.loungebarbistro"
+      >
+        <BsInstagram id="instagram-icon" />
       </a>
     </div>
   );
