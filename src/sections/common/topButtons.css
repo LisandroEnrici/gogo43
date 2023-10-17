@@ -1,0 +1,29 @@
+#top-buttons-container {
+  display: flex;
+  width: -webkit-fill-available;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(
+      ellipse at left top,
+      rgba(0, 0, 0, 0.5) 5%,
+      transparent 20%
+    ),
+    radial-gradient(
+      ellipse at right top,
+      rgba(0, 0, 0, 0.5) 5%,
+      transparent 20%
+    );
+  background-size: 100% 350%;
+}
+
+.icon-button {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
