@@ -3,17 +3,22 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 1);
-  background-color: #242424;
   --color-primary: #157aa6;
   --color-primary-light: #a8dcea;
   --color-secondary: #cf4730;
-  --color-tertiary: #ff00b5;
+  --color-tertiary: #ff009d;
+
+  color:var(--color-secondary);
+  background-color: var(--color-primary-light);
 
   --neon-shadow: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb, 0 0 19px #f9f3fb,
     0 0 40px var(--color-tertiary), 0 0 80px var(--color-tertiary),
     0 0 120px var(--color-tertiary), 0 0 150px var(--color-tertiary),
     0 0 300px var(--color-tertiary);
+  --neon-shadow-sm: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb,
+    0 0 15px var(--color-tertiary), 0 0 20px var(--color-tertiary),
+    0 0 45px var(--color-tertiary), 0 0 60px var(--color-tertiary),
+    0 0 85px var(--color-tertiary);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -46,7 +51,7 @@ section,
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   align-items: center;
