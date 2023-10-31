@@ -13,7 +13,7 @@ function Banner() {
       />
       <div id="bottom-section">
         <h2 className="neon-text">Qui dove battono i quori</h2>
-        <BsChevronDoubleDown id="scroll-icon" className="neon-text"/>
+        <BsChevronDoubleDown className="scroll-icon neon-text"/>
       </div>
     </section>
   );
