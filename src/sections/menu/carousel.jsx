@@ -5,21 +5,23 @@ function Carousel() {
   return (
     <div className="carousel-container">
       <div className="carousel-track">
-        {images.map((image) => {
+        {images.map((image, index) => {
           return (
             <img
               src={image.imgUrl}
               alt={image.title}
               style={{ width: "300px" }}
+              key={"A" + index}
             />
           );
         })}
-        {images.map((image) => {
+        {images.map((image, index) => {
           return (
             <img
               src={image.imgUrl}
               alt={image.title}
               style={{ width: "300px" }}
+              key={"B" + index}
             />
           );
         })}
