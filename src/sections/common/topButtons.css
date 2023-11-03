@@ -1,6 +1,6 @@
 #top-buttons-container {
   display: flex;
-  width: -webkit-fill-available;
+  width: 100%;
   position: fixed;
   justify-content: space-between;
   align-items: center;

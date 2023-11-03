@@ -55,7 +55,7 @@ a.side-section {
 .vertical-line {
   background-color: var(--color-secondary);
   width: 3px;
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 #right-icon {
