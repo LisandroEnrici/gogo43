@@ -1,7 +1,7 @@
 import React from "react";
 import { BiChevronsRight } from "react-icons/bi";
 
-const MENU_INVITATION = "Il menu ti aspetta";
+const MENU_INVITATION = "Scopri il nostro menù";
 
 function SideNav() {
   return (

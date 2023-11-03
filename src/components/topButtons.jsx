@@ -1,5 +1,4 @@
 import React from "react";
-import "./topButtons.css";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 function TopButtons() {

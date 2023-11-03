@@ -1,6 +1,5 @@
 import React from "react";
-import "./banner.css";
-import logoWhite from "../../assets/logoWhite.png";
+import logoWhite from "../assets/logoWhite.png";
 import { BsChevronDoubleDown } from "react-icons/bs";
 
 function Banner() {
@@ -12,7 +11,7 @@ function Banner() {
         alt="Gogo 43 Aci Trezza"
       />
       <div id="bottom-section">
-        <h2 className="neon-text">Qui dove battono i quori</h2>
+        <h2>Qui dove battono i quori</h2>
         <BsChevronDoubleDown className="scroll-icon neon-text"/>
       </div>
     </section>

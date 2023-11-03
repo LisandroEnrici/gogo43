@@ -1,6 +1,6 @@
-import Banner from "./sections/banner/banner";
-import TopButtons from "./sections/common/topButtons";
-import Menu from './sections/menu/menu'
+import Banner from "./sections/banner";
+import TopButtons from "./components/topButtons";
+import Menu from './sections/menu'
 
 function App() {
   return (
