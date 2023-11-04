@@ -8,7 +8,7 @@
   --color-secondary: #cf4730;
   --color-tertiary: #ff009d;
 
-  color:var(--color-secondary);
+  color: var(--color-secondary);
   background-color: var(--color-primary-light);
 
   --neon-shadow: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb, 0 0 19px #f9f3fb,
@@ -30,6 +30,13 @@
 @font-face {
   font-family: "Freehand";
   src: url("./fonts/Freehand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./fonts/Oswald-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -67,10 +74,9 @@ h2,
   text-shadow: var(--neon-shadow);
 }
 
-
 .scroll-icon {
   font-size: 30px;
-  margin: 20px
+  margin: 20px;
 }
 
 h1 {
@@ -113,7 +119,8 @@ h1 {
 }
 
 @keyframes heartbeat {
-  0%, 100% {
+  0%,
+  100% {
     background-size: 200% 120%;
   }
   20% {
@@ -230,4 +237,28 @@ a.side-section {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   white-space: nowrap;
+}
+
+h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+
+.menu-cards-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 8px;
+  gap: 8px;
+}
+
+.menu-card {
+  display: flex;
+  width: 100%;
+  min-height: 20vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
 }
