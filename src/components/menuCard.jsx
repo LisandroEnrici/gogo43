@@ -2,19 +2,19 @@ import React from "react";
 
 const DEFAULT_BACKGROUND = "src/assets/food/default.jpg";
 
-function MenuCard({ menuSection }) {
+function MenuCard({ title, imgUrl }) {
   const backgroundImage = `radial-gradient( ellipse at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 100% ),url("${
-    menuSection.imgUrl ? menuSection.imgUrl : DEFAULT_BACKGROUND
+    imgUrl ? imgUrl : DEFAULT_BACKGROUND
   }")`;
 
   return (
     <div
       className="menu-card"
       style={{
-        backgroundImage: { backgroundImage },
+        backgroundImage: backgroundImage,
       }}
     >
-      <h3>{menuSection.title}</h3>
+      <h3>{title}</h3>
     </div>
   );
 }

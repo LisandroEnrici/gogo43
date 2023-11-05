@@ -320,7 +320,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "DISTILATI",
+    title: "DISTILLATI",
     imgUrl: "src/assets/food/whiskey.jpg",
     content: [
       {
@@ -387,7 +387,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "BEBANDE",
+    title: "BEVANDE",
     imgUrl: "",
     content: [
       {
@@ -549,7 +549,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "PRIMI",
+    title: "PRIMI PIATTI",
     imgUrl: "src/assets/food/piattoRodo.jpg",
     content: [
       {
@@ -592,7 +592,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "SECONDI",
+    title: "SECONDI PIATTI",
     imgUrl: "src/assets/food/calamaroRip.jpg",
     content: [
       {

@@ -11,7 +11,7 @@ function Banner() {
         alt="Gogo 43 Aci Trezza"
       />
       <div id="bottom-section">
-        <h2>Qui dove battono i quori</h2>
+        <h2>Qui dove battono i cuori</h2>
         <BsChevronDoubleDown className="scroll-icon neon-text"/>
       </div>
     </section>
