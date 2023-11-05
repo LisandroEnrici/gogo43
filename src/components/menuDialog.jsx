@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import MenuCard from "./menuCard";
+import MenuDescription from "./menuDescription";
 
 function MenuDialog({ menuSection, onClose }) {
   return (
@@ -11,6 +12,9 @@ function MenuDialog({ menuSection, onClose }) {
         </a>
       </div>
       <MenuCard title={menuSection.title} imgUrl={menuSection.imgUrl} />
+      <div className="dialog-content">
+        <MenuDescription menuSection={menuSection} />
+      </div>
     </div>
   );
 }

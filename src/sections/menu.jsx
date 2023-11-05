@@ -30,7 +30,7 @@ function Menu() {
           );
         })}
       </div>
-      {isNaN(selectedMenuSection) ? NaN : (
+      {isNaN(selectedMenuSection) ? null : (
         <MenuDialog
           menuSection={italianMenu[selectedMenuSection]}
           onClose={handleCloseDialog}
