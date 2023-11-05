@@ -157,15 +157,13 @@ h1 {
   cursor: pointer;
 }
 
-.icon-button svg {
-  box-shadow: var(--neon-shadow);
-}
-
 #whatsapp-icon {
+  box-shadow: var(--neon-shadow);
   border-radius: 50%;
 }
 
 #instagram-icon {
+  box-shadow: var(--neon-shadow);
   border-radius: 8px;
 }
 
