@@ -33,6 +33,10 @@ function Menu() {
       {isNaN(selectedMenuSection) ? null : (
         <MenuDialog
           menuSection={italianMenu[selectedMenuSection]}
+          selectedMenuSection={selectedMenuSection}
+          setSelectedMenuSection={setSelectedMenuSection}
+          hasPrevious={selectedMenuSection > 0}
+          hasNext={selectedMenuSection < italianMenu.length -1}
           onClose={handleCloseDialog}
         />
       )}

@@ -1,8 +1,9 @@
 import React from "react";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const DEFAULT_BACKGROUND = "src/assets/food/default.jpg";
 
-function MenuCard({ index, title, imgUrl, onClick }) {
+function MenuCard({ index, title, imgUrl, onClick, onPrevious, onNext }) {
   const backgroundImage = `radial-gradient( ellipse at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 100% ),url("${
     imgUrl ? imgUrl : DEFAULT_BACKGROUND
   }")`;
@@ -13,9 +14,22 @@ function MenuCard({ index, title, imgUrl, onClick }) {
       style={{
         backgroundImage: backgroundImage,
       }}
-      onClick={ () => {onClick(index)}}
+      onClick={(e) => {
+        e.preventDefault();
+        if (onClick) onClick(index);
+      }}
     >
-      <h3>{title}</h3>
+      {onPrevious ? (
+        <a className="icon-button" onClick={onPrevious}>
+          <AiOutlineLeft />
+        </a>
+      ) : null}
+      <h3 className="menu-card-title">{title}</h3>
+      {onNext ? (
+        <a className="icon-button" onClick={onNext}>
+          <AiOutlineRight />
+        </a>
+      ) : null}
     </div>
   );
 }
