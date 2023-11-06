@@ -90,35 +90,10 @@ export const italianMenu = [
             name: "CAMPARI SPRITZ",
             icon: "",
             description: "Campari, Prosecco Valdo, Seltz",
-            price: "",
+            price: "9",
           },
         ],
-      },
-      {
-        title: "ANALCOLICI",
-        icons: [],
-        clarifications: "",
-        content: [
-          {
-            name: "VIRGIN PASSION",
-            icon: "",
-            description: "Premix passion fruit, Sweet&Sour, Succo alla pesca",
-            price: "6",
-          },
-          {
-            name: "VIRGIN COLADA",
-            icon: "",
-            description: "Premix cocco, Succo all’ananas",
-            price: "6",
-          },
-          {
-            name: "VIRGIN MOJITO",
-            icon: "",
-            description: "Lime pestato, Menta, Zucchero di canna, Lemon soda",
-            price: "6",
-          },
-        ],
-      },
+      }
     ],
   },
   {
@@ -320,7 +295,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "DISTILLATI",
+    title: "DISTILLATI E LIQUORI",
     imgUrl: "src/assets/food/whiskey.jpg",
     content: [
       {
@@ -387,7 +362,7 @@ export const italianMenu = [
     ],
   },
   {
-    title: "BEVANDE",
+    title: "BEVANDE E ANALCOLICI",
     imgUrl: "",
     content: [
       {
@@ -418,6 +393,31 @@ export const italianMenu = [
             icon: "",
             description: "",
             price: "2,5",
+          },
+        ],
+      },
+      {
+        title: "ANALCOLICI",
+        icons: [],
+        clarifications: "",
+        content: [
+          {
+            name: "VIRGIN PASSION",
+            icon: "",
+            description: "Premix passion fruit, Sweet&Sour, Succo alla pesca",
+            price: "6",
+          },
+          {
+            name: "VIRGIN COLADA",
+            icon: "",
+            description: "Premix cocco, Succo all’ananas",
+            price: "6",
+          },
+          {
+            name: "VIRGIN MOJITO",
+            icon: "",
+            description: "Lime pestato, Menta, Zucchero di canna, Lemon soda",
+            price: "6",
           },
         ],
       },

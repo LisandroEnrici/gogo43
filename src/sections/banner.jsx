@@ -6,12 +6,12 @@ function Banner() {
   return (
     <section id="banner">
       <img
-        id="logo-img"
+        id="logo-banner"
         src={logoWhite}
         alt="Gogo 43 Aci Trezza"
       />
       <div id="bottom-section">
-        <h2>Qui dove battono i cuori</h2>
+        <h2>Lounge bar bistrò</h2>
         <BsChevronDoubleDown className="scroll-icon neon-text"/>
       </div>
     </section>

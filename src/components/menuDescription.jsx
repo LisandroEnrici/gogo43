@@ -4,7 +4,6 @@ function MenuDescription({ menuSection }) {
   return (
     <>
       {menuSection.content.map((subSection) => {
-        console.log(subSection);
         return (
           <>
             <h3>{subSection.title}</h3>
@@ -12,7 +11,6 @@ function MenuDescription({ menuSection }) {
               <span>{subSection.clarifications}</span>
             ) : null}
             {subSection.content.map((item) => {
-              console.log(item);
               return (
                 <div className="menu-row">
                   <div>

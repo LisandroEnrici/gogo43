@@ -110,14 +110,15 @@ h4 {
       rgba(0, 0, 0, 0.4) 20%,
       rgba(0, 0, 0, 1) 80%
     ),
-    url("src/assets/people/antoMultitask.jpg");
-  background-size: cover;
+    url("src/assets/quiDoveBattono.jpg");
+  background-size: 250%;
   background-position: center 35%;
   justify-content: center;
 }
 
-#logo-img {
-  max-width: 300px;
+#logo-banner {
+  margin-top: 150px;
+  max-width: 250px;
 }
 
 #bottom-section {
@@ -269,7 +270,12 @@ a.side-section {
   background-size: cover;
   background-position: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.menu-card-title {
+  width: 100%;
+  text-align: center;
 }
 
 .dialog-container {
