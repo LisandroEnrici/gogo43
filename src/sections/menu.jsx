@@ -16,7 +16,7 @@ function Menu() {
 
   return (
     <section id="menu">
-      <h2 style={{ fontSize: "45px" }}>{OUR_MENU}</h2>
+      <h2>{OUR_MENU}</h2>
       <div className="menu-cards-container">
         {italianMenu.map((menuSection, index) => {
           return (

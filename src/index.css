@@ -43,16 +43,10 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
 }
 
-#root {
-  width: 100%;
-  overflow-x: hidden;
-}
 
 section,
 .full-size {
@@ -60,8 +54,6 @@ section,
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
   align-items: center;
   justify-content: center;
 }
@@ -71,12 +63,10 @@ h1 {
   line-height: 1.1;
 }
 
-h2,
-.neon-text {
+h2 {
   font-size: 35px;
   color: #f9f3fb;
   font-family: "Freehand", cursive;
-  text-shadow: var(--neon-shadow);
 }
 
 h3 {
@@ -96,6 +86,10 @@ h4 {
   margin-bottom: 0;
 }
 
+.neon-text {
+  text-shadow: var(--neon-shadow);
+}
+
 .scroll-icon {
   font-size: 30px;
   margin: 20px;
@@ -113,19 +107,23 @@ h4 {
     url("src/assets/quiDoveBattono.jpg");
   background-size: 250%;
   background-position: center 35%;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  #banner {
+    background-size: cover;
+  }
 }
 
 #logo-banner {
-  margin-top: 150px;
   max-width: 250px;
 }
 
 #bottom-section {
-  position: absolute;
   width: 100%;
   text-align: center;
-  bottom: 0;
   background: radial-gradient(
     ellipse at 50% 200%,
     var(--color-tertiary) 0%,
@@ -189,9 +187,13 @@ h4 {
   background: var(--color-primary);
 }
 
+#menu h2 {
+  font-size: 45px;
+}
+
 .content-container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: var(--color-primary);
   box-shadow: 0 0 10px -5px black;
@@ -256,11 +258,13 @@ a.side-section {
 }
 
 .menu-cards-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(360px, 1fr)
+  ); 
   width: 100%;
-  padding: 8px;
-  gap: 8px;
+  gap: 12px;
 }
 
 .menu-card {
@@ -282,7 +286,7 @@ a.side-section {
   display: flex;
   flex-direction: column;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   top: 0;
   z-index: 999;

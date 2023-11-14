@@ -249,13 +249,13 @@ export const italianMenu = [
         clarifications: "",
         content: [
           {
-            name: "BITBURGER 500CL",
+            name: "BITBURGER 50CL",
             icon: "",
             description: "",
             price: "5",
           },
           {
-            name: "ERDINGER 500CL",
+            name: "ERDINGER 50CL",
             icon: "",
             description: "",
             price: "6",
@@ -642,7 +642,7 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
-    imgUrl: "",
+    imgUrl: "/src/assets/food/_AYD5819.JPG",
     content: [
       {
         title: "DOLCI",
