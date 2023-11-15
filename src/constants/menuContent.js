@@ -5,7 +5,7 @@ export const italianMenu = [
     content: [
       {
         title: "DRINK LIST",
-        icons: [],
+        icons: ["LiaGlassWhiskeySolid", "LiaGlassMartiniSolid", "CgGlassAlt"],
         clarifications: "",
         content: [
           {
@@ -16,84 +16,84 @@ export const italianMenu = [
           },
           {
             name: "PA-MI",
-            icon: "Campari, Amaro tutone, Succo di arancia, Sciroppo di zucchero, Orinoco bitter",
-            description: "",
+            icon: "LiaGlassWhiskeySolid",
+            description: "Campari, Amaro tutone, Succo di arancia, Sciroppo di zucchero, Orinoco bitter",
             price: "10",
           },
           {
             name: "TROPICUS",
-            icon: "",
+            icon: "LiaGlassMartiniSolid",
             description:
               "Italicus, Liquore al melone, Lime, Mango, Bitter pompelmo, Succo di lime",
             price: "10",
           },
           {
             name: "MR. RYE",
-            icon: "",
+            icon: "LiaGlassWhiskeySolid",
             description: "Bullet rye, Succo di limome, Melagrana, Coca Cola",
             price: "10",
           },
           {
             name: "MISS BRAMBLE",
-            icon: "",
+            icon: "LiaGlassMartiniSolid",
             description:
               "Bacardi bianco, Chambord, Succo di lime, Lamponi, More",
             price: "11",
           },
           {
             name: "ITALIAN MOTHERFUCKER",
-            icon: "",
+            icon: "CgGlassAlt",
             description:
               "Italicus, Gin, Vodka, Rum, Sweet&Sour, Ginger beer, Albumina",
             price: "11",
           },
           {
             name: "HENDRICKS MOJITO",
-            icon: "",
+            icon: "CgGlassAlt",
             description:
               "Hendricks gin, Cocumber, Fleurs de sureau, Menta, Succo di lime, Zucchero di canna",
             price: "13",
           },
           {
             name: "WHISKEY SOUR",
-            icon: "",
+            icon: "LiaGlassMartiniSolid",
             description:
               "Wild Turkey bourbon, Succo di limone, Sciroppo di zucchero",
             price: "9",
           },
           {
             name: "OLD FASHIONED",
-            icon: "",
+            icon: "LiaGlassWhiskeySolid",
             description: "Wild Turkey 101, Acqua, Zucchero, Aromatic bitter",
             price: "9",
           },
           {
             name: "AMERICANO",
-            icon: "",
+            icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Seltz",
             price: "9",
           },
           {
             name: "NEGRONI",
-            icon: "",
+            icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Bulldog gin",
             price: "9",
           },
           {
             name: "PALOMA",
-            icon: "",
+            icon: "CgGlassAlt",
             description:
               "Tequila Espolon Blanco, Succo di lime, Sciroppo di agave, Thomas Henry pink grapefruit",
             price: "9",
           },
           {
             name: "CAMPARI SPRITZ",
-            icon: "",
+            icon: "LiaWineGlassAltSolid",
             description: "Campari, Prosecco Valdo, Seltz",
             price: "9",
           },
         ],
-      }
+      },
     ],
   },
   {
@@ -102,7 +102,7 @@ export const italianMenu = [
     content: [
       {
         title: "VINI ROSSI",
-        icons: [],
+        icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
@@ -145,7 +145,7 @@ export const italianMenu = [
       },
       {
         title: "VINI BIANCHI",
-        icons: [],
+        icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
@@ -188,7 +188,7 @@ export const italianMenu = [
       },
       {
         title: "PROSECCO",
-        icons: [],
+        icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
@@ -201,7 +201,7 @@ export const italianMenu = [
       },
       {
         title: "FRANCIACORTA",
-        icons: [],
+        icons: ["LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
@@ -226,7 +226,7 @@ export const italianMenu = [
       },
       {
         title: "CHAMPAGNE",
-        icons: [],
+        icons: ["LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
@@ -245,7 +245,7 @@ export const italianMenu = [
     content: [
       {
         title: "BIRRE",
-        icons: [],
+        icons: ["GiBeerBottle"],
         clarifications: "",
         content: [
           {
@@ -642,7 +642,7 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
-    imgUrl: "/src/assets/food/_AYD5819.JPG",
+    imgUrl: "",
     content: [
       {
         title: "DOLCI",
@@ -672,3 +672,4 @@ export const italianMenu = [
     ],
   },
 ];
+

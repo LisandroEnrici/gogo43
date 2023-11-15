@@ -1,4 +1,5 @@
 import React from "react";
+import MenuIconList from "../utils/menuIconList";
 
 function MenuDescription({ menuSection }) {
   return (
@@ -6,7 +7,12 @@ function MenuDescription({ menuSection }) {
       {menuSection.content.map((subSection) => {
         return (
           <>
-            <h3>{subSection.title}</h3>
+            <div className="menu-row">
+              <h3>{subSection.title}</h3>
+              <h3>{subSection.icons.map((icon) => (
+                <MenuIconList iconName={icon} />
+              ))}</h3>
+            </div>
             {subSection.clarifications ? (
               <span>{subSection.clarifications}</span>
             ) : null}
@@ -14,7 +20,7 @@ function MenuDescription({ menuSection }) {
               return (
                 <div className="menu-row">
                   <div>
-                    <h4>{item.name}</h4>
+                    <h4>{item.name} {<MenuIconList iconName={item.icon} />}</h4>
                     {item.description ? <span>{item.description}</span> : null}
                   </div>
                   <p>{item.price}</p>
