@@ -1,17 +1,18 @@
 import React from "react";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import {instagramUrl, whatsAppUrl} from '../constants/externalUrls.enum'
 
 function TopButtons() {
   return (
     <div id="top-buttons-container">
-      <a className="icon-button" href="https://wa.me/+393293122956">
-        <BsWhatsapp id="whatsapp-icon" />
-      </a>
       <a
         className="icon-button"
-        href="https://www.instagram.com/gogo43.loungebarbistro"
+        href={instagramUrl}
       >
         <BsInstagram id="instagram-icon" />
+      </a>
+      <a className="icon-button" href={whatsAppUrl}>
+        <BsWhatsapp id="whatsapp-icon" />
       </a>
     </div>
   );

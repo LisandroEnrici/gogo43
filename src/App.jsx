@@ -1,6 +1,7 @@
 import Banner from "./sections/banner";
 import TopButtons from "./components/topButtons";
 import Menu from './sections/menu'
+import Footer from "./sections/footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <TopButtons/>
     <Banner />
     <Menu />
+    <Footer />
   </>
   )
 }
