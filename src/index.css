@@ -312,4 +312,9 @@ a.side-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
+}
+
+div.menu-row p, h4 {
+  margin: 0;
 }

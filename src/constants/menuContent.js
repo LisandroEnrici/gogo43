@@ -98,7 +98,7 @@ export const italianMenu = [
   },
   {
     title: "VINI",
-    imgUrl: "src/assets/food/piattoRodo.jpg",
+    imgUrl: "src/assets/food/wine.jpg",
     content: [
       {
         title: "VINI ROSSI",
@@ -241,7 +241,7 @@ export const italianMenu = [
   },
   {
     title: "BIRRE",
-    imgUrl: "",
+    imgUrl: "src/assets/food/birra.jpg",
     content: [
       {
         title: "BIRRE",
@@ -363,7 +363,7 @@ export const italianMenu = [
   },
   {
     title: "BEVANDE E ANALCOLICI",
-    imgUrl: "",
+    imgUrl: "src/assets/food/analcolic.jpg",
     content: [
       {
         title: "BEVANDE",
@@ -642,7 +642,7 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
-    imgUrl: "",
+    imgUrl: "/src/assets/food/cheesecake.JPG",
     content: [
       {
         title: "DOLCI",
