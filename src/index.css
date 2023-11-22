@@ -103,7 +103,7 @@ h4 {
       rgba(0, 0, 0, 0.4) 20%,
       rgba(0, 0, 0, 1) 80%
     ),
-    url("src/assets/quiDoveBattono.jpg");
+    url("/assets/quiDoveBattono.jpg");
   background-size: 250%;
   background-position: center 35%;
   justify-content: flex-end;

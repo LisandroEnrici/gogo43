@@ -1,5 +1,5 @@
 import React from "react";
-import logoWhite from "../assets/logoWhite.png";
+import logoWhite from "/assets/logoWhite.png";
 import { BsChevronDoubleDown } from "react-icons/bs";
 
 function Banner() {

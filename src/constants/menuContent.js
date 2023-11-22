@@ -1,7 +1,7 @@
 export const italianMenu = [
   {
     title: "COCKTAILS",
-    imgUrl: "src/assets/food/sour.jpg",
+    imgUrl: "/assets/food/sour.jpg",
     content: [
       {
         title: "DRINK LIST",
@@ -98,7 +98,7 @@ export const italianMenu = [
   },
   {
     title: "VINI",
-    imgUrl: "src/assets/food/wine.jpg",
+    imgUrl: "/assets/food/wine.jpg",
     content: [
       {
         title: "VINI ROSSI",
@@ -241,7 +241,7 @@ export const italianMenu = [
   },
   {
     title: "BIRRE",
-    imgUrl: "src/assets/food/birra.jpg",
+    imgUrl: "/assets/food/birra.jpg",
     content: [
       {
         title: "BIRRE",
@@ -296,7 +296,7 @@ export const italianMenu = [
   },
   {
     title: "DISTILLATI E LIQUORI",
-    imgUrl: "src/assets/food/whiskey.jpg",
+    imgUrl: "/assets/food/whiskey.jpg",
     content: [
       {
         title: "DISTILLATI E LIQUORI",
@@ -363,7 +363,7 @@ export const italianMenu = [
   },
   {
     title: "BEVANDE E ANALCOLICI",
-    imgUrl: "src/assets/food/analcolic.jpg",
+    imgUrl: "/assets/food/analcolic.jpg",
     content: [
       {
         title: "BEVANDE",
@@ -425,7 +425,7 @@ export const italianMenu = [
   },
   {
     title: "ANTIPASTI",
-    imgUrl: "src/assets/food/piattoDeg.jpg",
+    imgUrl: "/assets/food/piattoDeg.jpg",
     content: [
       {
         title: "SFIZIOSITÁ",
@@ -550,7 +550,7 @@ export const italianMenu = [
   },
   {
     title: "PRIMI PIATTI",
-    imgUrl: "src/assets/food/piattoRodo.jpg",
+    imgUrl: "/assets/food/piattoRodo.jpg",
     content: [
       {
         title: "PRIMI PIATTI",
@@ -593,7 +593,7 @@ export const italianMenu = [
   },
   {
     title: "SECONDI PIATTI",
-    imgUrl: "src/assets/food/calamaroRip.jpg",
+    imgUrl: "/assets/food/calamaroRip.jpg",
     content: [
       {
         title: "SECONDI PIATTI",
@@ -642,7 +642,7 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
-    imgUrl: "/src/assets/food/cheesecake.JPG",
+    imgUrl: "/assets/food/cheesecake.JPG",
     content: [
       {
         title: "DOLCI",
