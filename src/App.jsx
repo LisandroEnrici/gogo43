@@ -1,17 +1,20 @@
-import Banner from "./sections/banner";
+import React, { Suspense, lazy } from "react";
 import TopButtons from "./components/topButtons";
-import Menu from './sections/menu'
+import Banner from "./sections/banner";
 import Footer from "./sections/footer";
+const Menu = lazy(() => import("./sections/menu"));
 
 function App() {
   return (
-  <>
-    <TopButtons/>
-    <Banner />
-    <Menu />
-    <Footer />
-  </>
-  )
+    <>
+      <TopButtons />
+      <Banner />
+      <Suspense fallback={<h2 style={{textAlign:'center'}}>Carico...</h2>}>
+        <Menu />
+      </Suspense>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

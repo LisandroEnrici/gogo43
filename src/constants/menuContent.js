@@ -642,7 +642,7 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
-    imgUrl: "/assets/food/cheesecake.JPG",
+    imgUrl: "/assets/food/cheesecake.jpg",
     content: [
       {
         title: "DOLCI",
