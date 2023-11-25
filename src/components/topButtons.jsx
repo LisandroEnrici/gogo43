@@ -9,10 +9,10 @@ function TopButtons() {
         className="icon-button"
         href={instagramUrl}
       >
-        <BsInstagram id="instagram-icon" />
+        <BsInstagram />
       </a>
       <a className="icon-button" href={whatsAppUrl}>
-        <BsWhatsapp id="whatsapp-icon" />
+        <BsWhatsapp />
       </a>
     </nav>
   );

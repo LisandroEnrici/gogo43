@@ -44,15 +44,12 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100svh;
 }
 
-section,
-.full-size {
+section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -95,7 +92,7 @@ h4 {
 }
 
 #banner {
-  width: 100%;
+  height: 100vh;
   height: 100svh;
   background-image: radial-gradient(
       ellipse at center,
@@ -117,7 +114,7 @@ h4 {
 }
 
 #logo-banner {
-  max-width: 250px;
+  max-width: 220px;
 }
 
 #bottom-section {
@@ -170,16 +167,6 @@ nav {
   font-size: 30px;
   color: white;
   cursor: pointer;
-}
-
-#whatsapp-icon {
-  box-shadow: var(--neon-shadow);
-  border-radius: 50%;
-}
-
-#instagram-icon {
-  box-shadow: var(--neon-shadow);
-  border-radius: 8px;
 }
 
 #menu h2 {
@@ -279,7 +266,7 @@ a.side-section {
   flex-direction: column;
   position: fixed;
   width: 100%;
-  height: 100dvh;
+  height: 100vh;
   top: 0;
   z-index: 999;
   background-color: var(--color-primary);
