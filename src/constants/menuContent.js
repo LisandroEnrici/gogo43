@@ -1,27 +1,32 @@
 export const italianMenu = [
   {
     title: "COCKTAILS",
+    show: true,
     imgUrl: "/assets/food/sour.jpg",
     content: [
       {
         title: "DRINK LIST",
+        show: true,
         icons: ["LiaGlassWhiskeySolid", "LiaGlassMartiniSolid", "CgGlassAlt"],
         clarifications: "",
         content: [
           {
             name: "COCKTAIL IBA",
+            show: true,
             icon: "",
             description: "Garnish by Gogo 43",
             price: "9",
           },
           {
             name: "PA-MI",
+            show: true,
             icon: "LiaGlassWhiskeySolid",
             description: "Campari, Amaro tutone, Succo di arancia, Sciroppo di zucchero, Orinoco bitter",
             price: "10",
           },
           {
             name: "TROPICUS",
+            show: true,
             icon: "LiaGlassMartiniSolid",
             description:
               "Italicus, Liquore al melone, Lime, Mango, Bitter pompelmo, Succo di lime",
@@ -29,12 +34,14 @@ export const italianMenu = [
           },
           {
             name: "MR. RYE",
+            show: true,
             icon: "LiaGlassWhiskeySolid",
             description: "Bullet rye, Succo di limome, Melagrana, Coca Cola",
             price: "10",
           },
           {
             name: "MISS BRAMBLE",
+            show: true,
             icon: "LiaGlassMartiniSolid",
             description:
               "Bacardi bianco, Chambord, Succo di lime, Lamponi, More",
@@ -42,6 +49,7 @@ export const italianMenu = [
           },
           {
             name: "ITALIAN MOTHERFUCKER",
+            show: true,
             icon: "CgGlassAlt",
             description:
               "Italicus, Gin, Vodka, Rum, Sweet&Sour, Ginger beer, Albumina",
@@ -49,6 +57,7 @@ export const italianMenu = [
           },
           {
             name: "HENDRICKS MOJITO",
+            show: true,
             icon: "CgGlassAlt",
             description:
               "Hendricks gin, Cocumber, Fleurs de sureau, Menta, Succo di lime, Zucchero di canna",
@@ -56,6 +65,7 @@ export const italianMenu = [
           },
           {
             name: "WHISKEY SOUR",
+            show: true,
             icon: "LiaGlassMartiniSolid",
             description:
               "Wild Turkey bourbon, Succo di limone, Sciroppo di zucchero",
@@ -63,24 +73,28 @@ export const italianMenu = [
           },
           {
             name: "OLD FASHIONED",
+            show: true,
             icon: "LiaGlassWhiskeySolid",
             description: "Wild Turkey 101, Acqua, Zucchero, Aromatic bitter",
             price: "9",
           },
           {
             name: "AMERICANO",
+            show: true,
             icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Seltz",
             price: "9",
           },
           {
             name: "NEGRONI",
+            show: true,
             icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Bulldog gin",
             price: "9",
           },
           {
             name: "PALOMA",
+            show: true,
             icon: "CgGlassAlt",
             description:
               "Tequila Espolon Blanco, Succo di lime, Sciroppo di agave, Thomas Henry pink grapefruit",
@@ -88,6 +102,7 @@ export const italianMenu = [
           },
           {
             name: "CAMPARI SPRITZ",
+            show: true,
             icon: "LiaWineGlassAltSolid",
             description: "Campari, Prosecco Valdo, Seltz",
             price: "9",
@@ -98,45 +113,53 @@ export const italianMenu = [
   },
   {
     title: "VINI",
+    show: true,
     imgUrl: "/assets/food/wine.jpg",
     content: [
       {
         title: "VINI ROSSI",
+        show: true,
         icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
             name: "NERO D'AVOLA",
+            show: true,
             icon: "",
             description: "Cantina: Baglio di Pianetto",
             price: "6 / 24",
           },
           {
             name: "SIRAH",
+            show: true,
             icon: "",
             description: "Cantina: Baglio di Pianetto",
             price: "6 / 24",
           },
           {
             name: "FRAPPATO",
+            show: true,
             icon: "",
             description: "Cantina: Baglio di Pianetto",
             price: "6 / 24",
           },
           {
             name: "ETNA ROSSO",
+            show: true,
             icon: "",
             description: "Cantina: Iupa",
             price: "- / 24",
           },
           {
             name: "ROSE",
+            show: true,
             icon: "",
             description: "Cantina: Iupa",
             price: "- / 24",
           },
           {
             name: "ETNA ROSSO",
+            show: true,
             icon: "",
             description: "Cantina: Girolamo Russo",
             price: "- / 38",
@@ -145,41 +168,48 @@ export const italianMenu = [
       },
       {
         title: "VINI BIANCHI",
+        show: true,
         icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
             name: "INZOLIA CHARDONNAY",
+            show: true,
             icon: "",
             description: "Cantina: Canicatti",
             price: "6 / 24",
           },
           {
             name: "ETNA BIANCO",
+            show: true,
             icon: "",
             description: "Cantina: Iupa",
             price: "6 / 24",
           },
           {
             name: "MOSCATO BIANCO",
+            show: true,
             icon: "",
             description: "Cantina: Planeta",
             price: "6 / 24",
           },
           {
             name: "GRILLO",
+            show: true,
             icon: "",
             description: "Cantina: Judeka",
             price: "6 / 24",
           },
           {
             name: "CUCUNCI",
+            show: true,
             icon: "",
             description: "Cantina: Montalto",
             price: "6 / 24",
           },
           {
             name: "FRABIANCO",
+            show: true,
             icon: "",
             description: "Cantina: Judeka",
             price: "6 / 24",
@@ -188,11 +218,13 @@ export const italianMenu = [
       },
       {
         title: "PROSECCO",
+        show: true,
         icons: ["LiaWineGlassAltSolid", "LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
             name: "VALDO",
+            show: true,
             icon: "",
             description: "",
             price: "6 / 28",
@@ -201,23 +233,27 @@ export const italianMenu = [
       },
       {
         title: "FRANCIACORTA",
+        show: true,
         icons: ["LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
             name: "BERLUCCHI SATEN",
+            show: true,
             icon: "",
             description: "",
             price: "37",
           },
           {
             name: "CÀ DEL BOSCO",
+            show: true,
             icon: "",
             description: "",
             price: "52",
           },
           {
             name: "BELLAVISTA",
+            show: true,
             icon: "",
             description: "",
             price: "55",
@@ -226,11 +262,13 @@ export const italianMenu = [
       },
       {
         title: "CHAMPAGNE",
+        show: true,
         icons: ["LiaWineBottleSolid"],
         clarifications: "",
         content: [
           {
             name: "CRISTAL",
+            show: true,
             icon: "",
             description: "",
             price: "380",
@@ -241,51 +279,60 @@ export const italianMenu = [
   },
   {
     title: "BIRRE",
+    show: true,
     imgUrl: "/assets/food/birra.jpg",
     content: [
       {
         title: "BIRRE",
+        show: true,
         icons: ["GiBeerBottle"],
         clarifications: "",
         content: [
           {
             name: "BITBURGER 50CL",
+            show: true,
             icon: "",
             description: "",
             price: "5",
           },
           {
             name: "ERDINGER 50CL",
+            show: true,
             icon: "",
             description: "",
             price: "6",
           },
           {
             name: "FREAK IPA",
+            show: true,
             icon: "",
             description: "",
             price: "6",
           },
           {
             name: "CORONA",
+            show: true,
             icon: "",
             description: "",
             price: "5",
           },
           {
             name: "BUDWEISER",
+            show: true,
             icon: "",
             description: "",
             price: "4",
           },
           {
             name: "BIRRA DELLO STRETTO",
+            show: true,
             icon: "",
             description: "",
             price: "5",
           },
           {
             name: "AYINGER CELEBRATOR",
+            show: true,
             icon: "",
             description: "",
             price: "6",
@@ -296,63 +343,74 @@ export const italianMenu = [
   },
   {
     title: "DISTILLATI E LIQUORI",
+    show: true,
     imgUrl: "/assets/food/whiskey.jpg",
     content: [
       {
         title: "DISTILLATI E LIQUORI",
+        show: true,
         icons: [],
         clarifications: "Il personale è ritenuto a conferire i prezzi.",
         content: [
           {
             name: "SHOT",
+            show: true,
             icon: "",
             description: "",
             price: "Da 4 a 45",
           },
           {
             name: "GIN",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "VODKA",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "RUM",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "VERMOUTH",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "WHISKEY / WHISKY",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "LIQUORI",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "TEQUILA",
+            show: true,
             icon: "",
             description: "",
             price: "Da 6 a 90",
           },
           {
             name: "AMARI",
+            show: true,
             icon: "",
             description: "",
             price: "Da 5 a 8",
@@ -363,33 +421,39 @@ export const italianMenu = [
   },
   {
     title: "BEVANDE E ANALCOLICI",
+    show: true,
     imgUrl: "/assets/food/analcolic.jpg",
     content: [
       {
         title: "BEVANDE",
+        show: true,
         icons: [],
         clarifications: "",
         content: [
           {
             name: "TONICHE / BIBITE",
+            show: true,
             icon: "",
             description: "",
             price: "3 / 5",
           },
           {
             name: "ACQUA PANNA",
+            show: true,
             icon: "",
             description: "",
             price: "2,5",
           },
           {
             name: "ACQUA FRIZZANTE SAN PELLEGRINO",
+            show: true,
             icon: "",
             description: "",
             price: "2,5",
           },
           {
             name: "ACQUA LETE",
+            show: true,
             icon: "",
             description: "",
             price: "2,5",
@@ -398,23 +462,27 @@ export const italianMenu = [
       },
       {
         title: "ANALCOLICI",
+        show: true,
         icons: [],
         clarifications: "",
         content: [
           {
             name: "VIRGIN PASSION",
+            show: true,
             icon: "",
             description: "Premix passion fruit, Sweet&Sour, Succo alla pesca",
             price: "6",
           },
           {
             name: "VIRGIN COLADA",
+            show: true,
             icon: "",
             description: "Premix cocco, Succo all’ananas",
             price: "6",
           },
           {
             name: "VIRGIN MOJITO",
+            show: true,
             icon: "",
             description: "Lime pestato, Menta, Zucchero di canna, Lemon soda",
             price: "6",
@@ -425,52 +493,61 @@ export const italianMenu = [
   },
   {
     title: "ANTIPASTI",
+    show: true,
     imgUrl: "/assets/food/piattoDeg.jpg",
     content: [
       {
         title: "SFIZIOSITÁ",
+        show: true,
         icons: [],
         clarifications:
           "I prodotti contrassegnati con *, in alcuni periodi dell’anno potrebbero essere surgelati.",
         content: [
           {
             name: "STICK DI MOZZARELLA *",
+            show: true,
             icon: "",
             description: "Mozzarella stick cheese",
             price: "6,5",
           },
           {
             name: "STRACCETTI DI POLLO *",
+            show: true,
             icon: "",
             description: "Chicken stick",
             price: "6,5",
           },
           {
             name: "ALI E COSCE DI POLLO *",
+            show: true,
             icon: "",
             description: "Chicken wings and legs",
             price: "8",
           },
           {
             name: "MOZZARELLINE AL TARTUFO *",
+            show: true,
             icon: "",
             description: "Mozzarelline with truffle",
             price: "6,5",
           },
           {
             name: "FIORI DI ZUCCA *",
+            show: true,
             icon: "",
             description: "Courgette flowers",
             price: "4",
           },
           {
             name: "PATATINE FRITTE *",
+            show: true,
             icon: "",
             description: "Chips",
             price: "4,5",
           },
           {
             name: "GAMBERETTI FRITTI",
+            show: true,
             icon: "",
             description: "Fry shrimps",
             price: "6",
@@ -479,29 +556,34 @@ export const italianMenu = [
       },
       {
         title: "BRUSCACCIE",
+        show: true,
         icons: [],
         clarifications: "Half bread-dipping, Half bun",
         content: [
           {
             name: "OLIO, ORIGANO, SALE, PEPE",
+            show: true,
             icon: "",
             description: "Oil, Oregano, Salt, Pepper",
             price: "2",
           },
           {
             name: "POMODORO, OLIO, ORIGANO, BASILICO",
+            show: true,
             icon: "",
             description: "Tomatoes, Oil, Oregano, Basil",
             price: "5",
           },
           {
             name: "TONNO, CAPPERI, CIPOLLA, POMODORO, MOZZARELLA",
+            show: true,
             icon: "",
             description: "Tuna, Capers, Onion, Tomato, Mozzarella cheese",
             price: "9",
           },
           {
             name: "SALSICCIA, FRIARIELLI, MOZZARELLA E SCAGLIE DI PEPATO",
+            show: true,
             icon: "",
             description:
               "Sausage, friarielli, mozzarella cheese and pepato cheese",
@@ -509,6 +591,7 @@ export const italianMenu = [
           },
           {
             name: "BURRATA, GAMBERO ROSSO DI MAZARA, PISTACHIO",
+            show: true,
             icon: "",
             description: "Burrata (Creamy cheese), Red shrimps, pistachio",
             price: "6",
@@ -517,29 +600,34 @@ export const italianMenu = [
       },
       {
         title: "ANTIPASTI",
+        show: true,
         icons: [],
         clarifications: "Pre dinner",
         content: [
           {
             name: "PEPATA DI COZZE",
+            show: true,
             icon: "",
             description: "Mussels cooked with pepper and parsley",
             price: "11",
           },
           {
             name: "CREMA DI PARMIGIANO CON UOVOE TARTUFO INTARSIATO ESTIVO",
+            show: true,
             icon: "",
             description: "Parmesan cream witg egg and sunmer inlaid truffle",
             price: "9",
           },
           {
             name: "INSALATA",
+            show: true,
             icon: "",
             description: "Salad",
             price: "4 / 9",
           },
           {
             name: "PIATTO DEGUSTAZIONE",
+            show: true,
             icon: "",
             description: "Tasting dish",
             price: "19",
@@ -550,39 +638,46 @@ export const italianMenu = [
   },
   {
     title: "PRIMI PIATTI",
+    show: true,
     imgUrl: "/assets/food/piattoRodo.jpg",
     content: [
       {
         title: "PRIMI PIATTI",
+        show: true,
         icons: [],
         clarification: "First dishes",
         content: [
           {
             name: "LINGUINE PISTACCHIO E GAMBERI *",
+            show: true,
             icon: "",
             description: "Linguine with shrimps* and pistachio",
             price: "16",
           },
           {
             name: "PIATTO STELLA",
+            show: true,
             icon: "",
             description: "Linguine with lobster* 300g and tomatoes",
             price: "23",
           },
           {
             name: "SPAGHETTI BOTTARGA DI TONNO",
+            show: true,
             icon: "",
             description: "Spaghetti with bottarga of tuna, lime",
             price: "17",
           },
           {
             name: "FIDATI DI NOI",
+            show: true,
             icon: "",
             description: "Trust us",
             price: "22",
           },
           {
             name: "PIATTO DEL GIORNO",
+            show: true,
             icon: "",
             description: "Daily special",
             price: "17 / 23",
@@ -593,45 +688,53 @@ export const italianMenu = [
   },
   {
     title: "SECONDI PIATTI",
+    show: true,
     imgUrl: "/assets/food/calamaroRip.jpg",
     content: [
       {
         title: "SECONDI PIATTI",
+        show: true,
         icons: [],
         clarification: "Second dishes",
         content: [
           {
             name: "SCOPPIATA DI MARE",
+            show: true,
             icon: "",
             description: "Aragosta*, Gamberi*, Calamaro*, polipo* e cozze",
             price: "35",
           },
           {
             name: "STINCO DI MAIALE CON CREMA AL PARMIGIANO",
+            show: true,
             icon: "",
             description: "Pork shank with parmigiano cheese cream",
             price: "18",
           },
           {
             name: "COSCIA D’ANATRA CON CREMA AL PARMIGIANO",
+            show: true,
             icon: "",
             description: "Thigh of duck with parmigiano cheese cream",
             price: "18",
           },
           {
             name: "CALAMARO FRITTO E CHIPS",
+            show: true,
             icon: "",
             description: "Fried Squid and Chips",
             price: "18",
           },
           {
             name: "CALAMARO RIPIENO",
+            show: true,
             icon: "",
             description: "Stuffed squid",
             price: "16",
           },
           {
             name: "SECONDO DEL GIORNO",
+            show: true,
             icon: "",
             description: "Second daily special",
             price: "16 / 22",
@@ -642,27 +745,32 @@ export const italianMenu = [
   },
   {
     title: "DOLCI",
+    show: true,
     imgUrl: "/assets/food/cheesecake.jpg",
     content: [
       {
         title: "DOLCI",
+        show: true,
         icons: [],
         clarification: "Desserts",
         content: [
           {
             name: "NEW YORK CHEESCAKE CARAMELLO",
+            show: true,
             icon: "",
             description: "New York caramel cheescake",
             price: "5",
           },
           {
             name: "NEW YORK CHEESCAKE CIOCCOLATO",
+            show: true,
             icon: "",
             description: "New York chocolate cheescake",
             price: "5",
           },
           {
             name: "NEW YORK CHEESCAKE FRUTTI DI BOSCO",
+            show: true,
             icon: "",
             description: "New York wild berries cheescake",
             price: "5",

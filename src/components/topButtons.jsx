@@ -4,7 +4,7 @@ import {instagramUrl, whatsAppUrl} from '../constants/externalUrls.enum'
 
 function TopButtons() {
   return (
-    <div id="top-buttons-container">
+    <nav>
       <a
         className="icon-button"
         href={instagramUrl}
@@ -14,7 +14,7 @@ function TopButtons() {
       <a className="icon-button" href={whatsAppUrl}>
         <BsWhatsapp id="whatsapp-icon" />
       </a>
-    </div>
+    </nav>
   );
 }
 
