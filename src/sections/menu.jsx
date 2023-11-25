@@ -18,7 +18,7 @@ function Menu() {
     <section id="menu">
       <h2>{OUR_MENU}</h2>
       <div className="menu-cards-container">
-        {italianMenu.map((menuSection, index) => {
+        {italianMenu.filter(menuSection => menuSection.show).map((menuSection, index) => {
           return (
             <MenuCard
               key={index}

@@ -4,7 +4,7 @@ import MenuIconList from "../utils/menuIconList";
 function MenuDescription({ menuSection }) {
   return (
     <>
-      {menuSection.content.map((subSection) => {
+      {menuSection.content.filter(subSection => subSection.show).map((subSection) => {
         return (
           <>
             <div className="menu-row">
@@ -16,7 +16,7 @@ function MenuDescription({ menuSection }) {
             {subSection.clarifications ? (
               <span>{subSection.clarifications}</span>
             ) : null}
-            {subSection.content.map((item) => {
+            {subSection.content.filter(item => item.show).map((item) => {
               return (
                 <div className="menu-row">
                   <div>
