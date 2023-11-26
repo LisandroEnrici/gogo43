@@ -11,11 +11,11 @@
   color: white;
   background-color: var(--color-primary);
 
-  --neon-shadow: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb, 0 0 19px #f9f3fb,
+  --neon-shadow: 0 0 4px white, 0 0 11px white, 0 0 19px white,
     0 0 40px var(--color-tertiary), 0 0 80px var(--color-tertiary),
     0 0 120px var(--color-tertiary), 0 0 150px var(--color-tertiary),
     0 0 300px var(--color-tertiary);
-  --neon-shadow-sm: 0 0 4px #f9f3fb, 0 0 11px #f9f3fb,
+  --neon-shadow-sm: 0 0 4px white, 0 0 11px white,
     0 0 15px var(--color-tertiary), 0 0 20px var(--color-tertiary),
     0 0 45px var(--color-tertiary), 0 0 60px var(--color-tertiary),
     0 0 85px var(--color-tertiary);
@@ -61,7 +61,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  color: #f9f3fb;
+  color: white;
   font-family: "Freehand", cursive;
 }
 
@@ -104,7 +104,6 @@ h4 {
   background-size: 250%;
   background-position: center 35%;
   justify-content: flex-end;
-  gap: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -114,7 +113,7 @@ h4 {
 }
 
 #logo-banner {
-  max-width: 220px;
+  max-width: 200px;
 }
 
 #bottom-section {
@@ -167,6 +166,10 @@ nav {
   font-size: 30px;
   color: white;
   cursor: pointer;
+}
+
+#banner h2 {
+  font-size: 25px;
 }
 
 #menu h2 {

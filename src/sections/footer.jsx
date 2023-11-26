@@ -29,7 +29,7 @@ function Footer() {
       </ul>
       <p className="center-text">•••</p>
       <a className="center-text" href={creditsUrl}>
-        © 2023
+        Author © 2023
       </a>
     </footer>
   );
