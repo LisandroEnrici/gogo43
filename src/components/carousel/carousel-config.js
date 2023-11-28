@@ -1,38 +1,23 @@
-import bruscacciaBeG from "./../..//assets/food/bruscacciaBeG.jpg";
-import bloodymary from "./../../assets/food/bloodymary.jpg";
-import calamaroRip from "./../../assets/food/calamaroRip.jpg";
-import piattoDeg from "./../../assets/food/piattoDeg.jpg";
-import piattoRodo from "./../../assets/food/piattoRodo.jpg";
-import sour from "./../../assets/food/sour.jpg";
-import straining from "./../../assets/food/straining.jpg";
+import antoMultitask from "/assets/people/antoMultitask.jpg";
+import barStaff from "/assets/people/barStaff.jpg";
+import martino from "/assets/people/martino.jpg";
+import staffSala from "/assets/people/staffSala.jpg";
 
 export const images = [
   {
-    imgUrl: bruscacciaBeG,
-    title: "Bruscaccia burrata e gamberi",
+    imgUrl: antoMultitask,
+    title: "Antonio multitasking",
   },
   {
-    imgUrl: bloodymary,
-    title: "Bloodymary",
+    imgUrl: barStaff,
+    title: "Bar staff",
   },
   {
-    imgUrl: calamaroRip,
-    title: "Calamaro ripieno",
+    imgUrl: martino,
+    title: "Cooking",
   },
   {
-    imgUrl: sour,
-    title: "Cocktail sour",
-  },
-  {
-    imgUrl: piattoDeg,
-    title: "Piatto degustazione",
-  },
-  {
-    imgUrl: piattoRodo,
-    title: "Pasta burrata e gamberi",
-  },
-  {
-    imgUrl: straining,
-    title: "Cocktail straining",
+    imgUrl: staffSala,
+    title: "All together",
   },
 ];

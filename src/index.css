@@ -60,9 +60,9 @@ h1 {
 }
 
 h2 {
+  font-family: "Freehand", cursive;
   font-size: 45px;
   color: white;
-  font-family: "Freehand", cursive;
 }
 
 h3 {
@@ -72,10 +72,16 @@ h3 {
 }
 
 h4 {
-  color: white;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
+  color: white;
   margin-bottom: 0;
+}
+
+i {
+  color: white;
+  font-family: "Freehand", cursive;
+  font-size: 25px;
 }
 
 a {
@@ -173,32 +179,6 @@ nav {
 
 #banner h2 {
   font-size: 25px;
-}
-
-.carousel-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-track {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  width: 100%;
-  animation: carousel-scroll 10s linear infinite;
-}
-
-@keyframes carousel-scroll {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
 }
 
 .side-section {
@@ -312,6 +292,46 @@ div.menu-row p {
   white-space: nowrap;
 }
 
+#about-us {
+  margin-top: 20px;
+  padding: 20px;
+  height: 100svh;
+}
+
+#about-us p {
+  max-width: 700px;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.carousel-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  animation: carousel-scroll 30s linear infinite;
+  filter: brightness(0.3);
+}
+
+@keyframes carousel-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track img {
+  height: 100svh;
+}
+
 #find-us {
   padding: 20px;
 }
@@ -320,7 +340,7 @@ div.menu-row p {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  gap: 0
+  gap: 0;
 }
 
 .img-acitrezza {
@@ -346,7 +366,7 @@ div.menu-row p {
     display: grid;
     grid-template-columns: 70% auto;
     grid-template-rows: 40% auto;
-    gap: 40px
+    gap: 40px;
   }
   .img-acitrezza {
     grid-column: 1;

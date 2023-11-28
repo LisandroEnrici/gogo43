@@ -10,7 +10,6 @@ function Carousel() {
             <img
               src={image.imgUrl}
               alt={image.title}
-              style={{ width: "300px" }}
               key={"A" + index}
             />
           );
@@ -20,7 +19,6 @@ function Carousel() {
             <img
               src={image.imgUrl}
               alt={image.title}
-              style={{ width: "300px" }}
               key={"B" + index}
             />
           );
