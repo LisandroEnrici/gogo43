@@ -53,11 +53,14 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--color-primary);
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  line-height: 1;
+  margin: 0;
 }
 
 h2 {
@@ -86,21 +89,24 @@ i {
 }
 
 a {
+  color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .neon-text {
   text-shadow: var(--neon-shadow);
 }
 
-.scroll-icon {
+.arrow-icon {
   font-size: 30px;
-  margin: 20px;
+  padding: 20px;
 }
 
 #banner {
   height: 100vh;
   height: 100svh;
+  justify-content: flex-end;
   background-image: radial-gradient(
       ellipse at center,
       rgba(0, 0, 0, 0) 0%,
@@ -110,7 +116,7 @@ a {
     url("/assets/quiDoveBattono.jpg");
   background-size: 250%;
   background-position: center 35%;
-  justify-content: flex-end;
+  background-attachment: fixed;
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,7 +154,6 @@ nav {
   justify-content: center;
   font-size: 30px;
   color: white;
-  cursor: pointer;
 }
 
 #banner h2 {
@@ -185,6 +190,15 @@ a.side-section {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   white-space: nowrap;
+}
+
+.menu-access-container {
+  display: flex;
+  width: 100%;
+  max-width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .menu-cards-container {
@@ -274,13 +288,15 @@ div.menu-row p {
 }
 
 #about-us {
-  height: 110svh;
-  padding: 20px;
+  height: 100svh;
+  padding: 0 20px;
+  background-color: transparent;
 }
 
 #about-us p {
   max-width: 700px;
   text-align: center;
+  font-size: 14px;
 }
 
 .about-us-container {
@@ -293,9 +309,10 @@ div.menu-row p {
 .carousel-container {
   width: 100%;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   left: 0;
+  top: 0;
 }
 
 .carousel-track {
@@ -317,11 +334,15 @@ div.menu-row p {
 }
 
 .carousel-track img {
-  height: 110svh;
+  height: 100svh;
 }
 
 #find-us {
-  padding: 0 20px;
+  padding: 20px;
+}
+
+#find-us h2 {
+  z-index: 1;
 }
 
 #find-us .content-container {
@@ -340,10 +361,9 @@ div.menu-row p {
   background-size: cover;
   box-shadow: 0 0 50px -20px black;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   height: 140px;
-  z-index: -1;
   filter: brightness(0.5);
 }
 
@@ -352,6 +372,7 @@ div.menu-row p {
   grid-column: 1;
   grid-row: 1;
   text-align: center;
+  font-size: 14px;
 }
 
 .maps-frame {
@@ -376,7 +397,6 @@ div.menu-row p {
     top: 0;
     left: 0;
     height: 100%;
-    z-index: -1;
     filter: none;
   }
   .txt-acitrezza {
@@ -429,6 +449,7 @@ div.menu-row p {
 }
 
 footer {
+  background-color: var(--color-primary);
   padding: 20px 30px;
 }
 

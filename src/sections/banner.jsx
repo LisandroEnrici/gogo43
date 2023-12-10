@@ -12,7 +12,7 @@ function Banner() {
       />
       <div id="bottom-section">
         <h2 className="neon-text">Lounge bar bistrò</h2>
-        <BsChevronDoubleDown className="scroll-icon neon-text"/>
+        <BsChevronDoubleDown className="arrow-icon"/>
       </div>
     </section>
   );
