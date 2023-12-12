@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
 import Homepage from "./pages/homepage.jsx";
 import Menupage from "./pages/menupage.jsx";
 import "./index.css";
@@ -8,7 +12,12 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/menu",
-    element: <Menupage />,
+    element: (
+      <>
+        <ScrollRestoration />
+        <Menupage />
+      </>
+    ),
   },
   {
     path: "/",

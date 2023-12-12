@@ -7,7 +7,7 @@ const MenuAccess = lazy(() => import("../components/menuAccess"));
 const FindUs = lazy(() => import("../sections/findUs"));
 const AboutUs = lazy(() => import("../sections/aboutUs"));
 
-function App() {
+function Homepage() {
   return (
     <Suspense fallback={<LoadingPage />}>
       <TopButtons />
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
