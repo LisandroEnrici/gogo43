@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function MenuAccess() {
   return (
-    <section>
+    <section id="menu-access">
       <div className="menu-access-container">
         <div>
           <h1>ME</h1>
