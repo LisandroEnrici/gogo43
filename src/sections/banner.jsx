@@ -11,7 +11,7 @@ function Banner() {
         alt="Gogo 43 Aci Trezza"
       />
       <div id="bottom-section">
-        <h2 className="neon-text">Lounge bar bistrò</h2>
+        <h2 className="neon-text">Lounge Bar Bistrò</h2>
         <BsChevronDoubleDown className="arrow-icon"/>
       </div>
     </section>

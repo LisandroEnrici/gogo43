@@ -1,7 +1,7 @@
 import React from "react";
 import { HTML_ACITREZZA } from "../constants/textContent";
 
-const TXT_FIND_US = "Dove siamo?";
+const TXT_FIND_US = "Dove siamo";
 
 function findUs() {
   return (

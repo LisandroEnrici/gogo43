@@ -294,10 +294,15 @@ div.menu-row p {
   background-color: transparent;
 }
 
+#about-us h2{
+  margin: 0 0 20px 0;
+}
+
 #about-us p {
   max-width: 700px;
   text-align: center;
   font-size: 14px;
+  margin: 0;
 }
 
 .about-us-container {
@@ -361,7 +366,7 @@ div.menu-row p {
   background-image: url("https://siviaggia.it/wp-content/uploads/sites/2/2019/08/aci-trezza.jpg");
   background-position: center;
   background-size: cover;
-  box-shadow: 0 0 50px -20px black;
+  box-shadow: 0 0 50px -25px black;
   position: absolute;
   top: 20px;
   left: 0;
@@ -383,6 +388,7 @@ div.menu-row p {
   height: 100%;
   grid-column: 1;
   grid-row: 2;
+  box-shadow: 0 0 50px -25px black;
 }
 
 @media only screen and (min-width: 780px) {
@@ -458,16 +464,17 @@ footer {
 .footer-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1.3fr 1fr 1fr;
+  grid-template-rows: 1.3fr 1fr 1fr 1fr;
+  align-items: center;
   column-gap: 12px;
   margin: auto;
   width: min-content;
 }
 
 footer .logo-container {
-  grid-area: 1 / 1 / 4 / 1;
-  width: 100px;
-  height: 100px;
+  grid-area: 1 / 1 / 5 / 1;
+  width: 120px;
+  height: 120px;
   background-image: url("/assets/logotipoWhite.png");
   background-position: center;
   background-size: cover;
