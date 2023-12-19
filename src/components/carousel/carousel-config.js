@@ -1,7 +1,6 @@
 import antoMultitask from "/assets/people/antoMultitask.jpg";
 import barStaff from "/assets/people/barStaff.jpg";
 import martino from "/assets/people/martino.jpg";
-import staffSala from "/assets/people/staffSala.jpg";
 
 export const images = [
   {
@@ -15,9 +14,5 @@ export const images = [
   {
     imgUrl: martino,
     title: "Cooking",
-  },
-  {
-    imgUrl: staffSala,
-    title: "All together",
   },
 ];
