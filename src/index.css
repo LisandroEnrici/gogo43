@@ -212,8 +212,42 @@ a.side-section {
 
 @media only screen and (min-width: 768px) {
   .menu-cards-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "a e f f"
+    "a d f f"
+    "c c g h"
+    "b b i i";
   }
+}
+
+#grid-area-1 {
+  grid-area: a;
+}
+#grid-area-2 {
+  grid-area: b;
+}
+#grid-area-3 {
+  grid-area: c;
+}
+#grid-area-4 {
+  grid-area: d;
+}
+#grid-area-5 {
+  grid-area: e;
+}
+#grid-area-6 {
+  grid-area: f;
+}
+#grid-area-7 {
+  grid-area: g;
+}
+#grid-area-8 {
+  grid-area: h;
+}
+#grid-area-9 {
+  grid-area: i;
 }
 
 .menu-card {

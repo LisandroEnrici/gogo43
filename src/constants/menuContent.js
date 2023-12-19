@@ -494,7 +494,7 @@ export const italianMenu = [
   {
     title: "ANTIPASTI",
     show: true,
-    imgUrl: "/assets/food/piattoDeg.jpg",
+    imgUrl: "/assets/food/aperitivo.jpg",
     content: [
       {
         title: "SFIZIOSITÁ",

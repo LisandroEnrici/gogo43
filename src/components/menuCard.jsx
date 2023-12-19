@@ -10,6 +10,7 @@ function MenuCard({ index, title, imgUrl, onClick, onPrevious, onNext }) {
 
   return (
     <div
+      id={`grid-area-${index + 1}`}
       className="menu-card"
       style={{
         backgroundImage: backgroundImage,
