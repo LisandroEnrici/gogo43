@@ -639,7 +639,7 @@ export const italianMenu = [
   {
     title: "PRIMI PIATTI",
     show: true,
-    imgUrl: "/assets/food/piattoRodo.jpg",
+    imgUrl: "/assets/food/carbonara.jpg",
     content: [
       {
         title: "PRIMI PIATTI",
@@ -703,7 +703,7 @@ export const italianMenu = [
   {
     title: "SECONDI PIATTI",
     show: true,
-    imgUrl: "/assets/food/calamaroRip.jpg",
+    imgUrl: "/assets/food/pepata.jpg",
     content: [
       {
         title: "SECONDI PIATTI",
