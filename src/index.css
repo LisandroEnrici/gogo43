@@ -292,6 +292,7 @@ div.menu-row p {
 #about-us {
   padding: 0 20px;
   background-color: transparent;
+  min-height: 100svh;
 }
 
 #about-us h2{
@@ -486,15 +487,15 @@ footer .contact-title {
   margin-top: 10px;
 }
 
-footer a {
-  color: white;
-  font-size: 12px;
-  margin-left: 8px;
-}
-
 footer .contact-item {
   display: flex;
   align-items: center;
+}
+
+footer .contact-item span {
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
 }
 
 .center-text {

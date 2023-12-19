@@ -15,19 +15,19 @@ function Footer() {
       <hr />
       <div className="footer-container">
         <div className="logo-container"></div>
-        <h4 className="contact-title">{CONTACT_US.toUpperCase()}:</h4>
-        <div className="contact-item">
+        <h4 className="contact-title">{CONTACT_US.toUpperCase()}</h4>
+        <a className="contact-item" href={whatsAppUrl}>
           <BsWhatsapp />
-          <a href={whatsAppUrl}>+393293122956</a>
-        </div>
-        <div className="contact-item">
+          <span>+393293122956</span>
+        </a>
+        <a className="contact-item" href={instagramUrl}>
           <BsInstagram />
-          <a href={instagramUrl}>@gogo43.loungebarbistro</a>
-        </div>
-        <div className="contact-item">
+          <span>@gogo43.loungebarbistro</span>
+        </a>
+        <a className="contact-item" href={facebookUrl}>
           <BsFacebook />
-          <a href={facebookUrl}>Gogo 43</a>
-        </div>
+          <span>Gogo 43</span>
+        </a>
       </div>
       <p className="center-text">•••</p>
       <a className="center-text" href={creditsUrl}>
