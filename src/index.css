@@ -243,10 +243,10 @@ a.side-section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "a e f f"
-    "a d f f"
-    "c c g h"
-    "b b i i";
+      "a e f f"
+      "a d f f"
+      "c c g h"
+      "b b i i";
   }
   #grid-area-1 {
     grid-area: a;
@@ -355,9 +355,17 @@ div.menu-row p {
   padding: 0 20px;
   background-color: transparent;
   min-height: 100svh;
+  background-image: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 1) 80%
+    ),
+    url("/assets/people/antoMultitask.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-#about-us h2{
+#about-us h2 {
   margin: 0 0 20px 0;
 }
 
