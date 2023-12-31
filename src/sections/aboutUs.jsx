@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "../components/carousel/carousel";
 import { HTML_ABOUT_US } from "../constants/textContent";
 
 const TXT_WHO_WE_ARE = "Chi siamo";
@@ -7,7 +6,6 @@ const TXT_WHO_WE_ARE = "Chi siamo";
 function AboutUs() {
   return (
     <section id="about-us">
-      <Carousel />
       <div className="about-us-container">
         <h2 className="neon-text">{TXT_WHO_WE_ARE}</h2>
         <p dangerouslySetInnerHTML={{ __html: HTML_ABOUT_US.italian }}></p>
