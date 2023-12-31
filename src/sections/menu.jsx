@@ -9,26 +9,30 @@ function Menu() {
   const [selectedMenuSection, setSelectedMenuSection] = useState(NaN);
   const handleMenuCardClick = (index) => {
     setSelectedMenuSection(index);
+    document.body.style.overflowY = "hidden";
   };
   const handleCloseDialog = () => {
     setSelectedMenuSection(NaN);
+    document.body.style.overflowY = "";
   };
 
   return (
     <section id="menu">
       <h2>{OUR_MENU}</h2>
       <div className="menu-cards-container">
-        {italianMenu.filter(menuSection => menuSection.show).map((menuSection, index) => {
-          return (
-            <MenuCard
-              key={index}
-              index={index}
-              title={menuSection.title}
-              imgUrl={menuSection.imgUrl}
-              onClick={handleMenuCardClick}
-            />
-          );
-        })}
+        {italianMenu
+          .filter((menuSection) => menuSection.show)
+          .map((menuSection, index) => {
+            return (
+              <MenuCard
+                key={index}
+                index={index}
+                title={menuSection.title}
+                imgUrl={menuSection.imgUrl}
+                onClick={handleMenuCardClick}
+              />
+            );
+          })}
       </div>
       {isNaN(selectedMenuSection) ? null : (
         <MenuDialog
@@ -36,7 +40,7 @@ function Menu() {
           selectedMenuSection={selectedMenuSection}
           setSelectedMenuSection={setSelectedMenuSection}
           hasPrevious={selectedMenuSection > 0}
-          hasNext={selectedMenuSection < italianMenu.length -1}
+          hasNext={selectedMenuSection < italianMenu.length - 1}
           onClose={handleCloseDialog}
         />
       )}
