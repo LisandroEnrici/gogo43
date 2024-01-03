@@ -11,7 +11,7 @@ export const italianMenu = [
         clarifications: "",
         content: [
           {
-            name: "COCKTAIL IBA",
+            name: "COCKTAIL IBA INTERNAZIONALI",
             show: true,
             icon: "",
             description: "Garnish by Gogo 43",
@@ -21,7 +21,8 @@ export const italianMenu = [
             name: "PA-MI",
             show: true,
             icon: "LiaGlassWhiskeySolid",
-            description: "Campari, Amaro tutone, Succo di arancia, Sciroppo di zucchero, Orinoco bitter",
+            description:
+              "Campari, Amaro, Succo di arancia, Sciroppo di zucchero, Orinoco bitter",
             price: "10 €",
           },
           {
@@ -60,12 +61,12 @@ export const italianMenu = [
             show: true,
             icon: "CgGlassAlt",
             description:
-              "Hendricks gin, Cocumber, Fleurs de sureau, Menta, Succo di lime, Zucchero di canna",
+              "Hendricks gin, Cetriolo, Fleurs de sureau, Menta, Succo di lime, Zucchero di canna",
             price: "13 €",
           },
           {
             name: "WHISKEY SOUR",
-            show: true,
+            show: false,
             icon: "LiaGlassMartiniSolid",
             description:
               "Wild Turkey bourbon, Succo di limone, Sciroppo di zucchero",
@@ -73,28 +74,28 @@ export const italianMenu = [
           },
           {
             name: "OLD FASHIONED",
-            show: true,
+            show: false,
             icon: "LiaGlassWhiskeySolid",
             description: "Wild Turkey 101, Acqua, Zucchero, Aromatic bitter",
             price: "9 €",
           },
           {
             name: "AMERICANO",
-            show: true,
+            show: false,
             icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Seltz",
             price: "9 €",
           },
           {
             name: "NEGRONI",
-            show: true,
+            show: false,
             icon: "LiaGlassWhiskeySolid",
             description: "Campari, Cinzano vermouth rosso, Bulldog gin",
             price: "9 €",
           },
           {
             name: "PALOMA",
-            show: true,
+            show: false,
             icon: "CgGlassAlt",
             description:
               "Tequila Espolon Blanco, Succo di lime, Sciroppo di agave, Thomas Henry pink grapefruit",
@@ -102,7 +103,7 @@ export const italianMenu = [
           },
           {
             name: "CAMPARI SPRITZ",
-            show: true,
+            show: false,
             icon: "LiaWineGlassAltSolid",
             description: "Campari, Prosecco Valdo, Seltz",
             price: "9 €",
@@ -147,14 +148,14 @@ export const italianMenu = [
             name: "ETNA ROSSO",
             show: true,
             icon: "",
-            description: "Cantina: Iupa",
+            description: "Cantina: IUPPA",
             price: "- / 24 €",
           },
           {
             name: "ROSE",
             show: true,
             icon: "",
-            description: "Cantina: Iupa",
+            description: "Cantina: IUPPA",
             price: "- / 24 €",
           },
           {
@@ -183,7 +184,7 @@ export const italianMenu = [
             name: "ETNA BIANCO",
             show: true,
             icon: "",
-            description: "Cantina: Iupa",
+            description: "Cantina: IUPPA",
             price: "6 / 24 €",
           },
           {
@@ -289,7 +290,28 @@ export const italianMenu = [
         clarifications: "",
         content: [
           {
+            name: "AYINGER CELEBRATOR",
+            show: true,
+            icon: "",
+            description: "",
+            price: "6 €",
+          },
+          {
+            name: "BIRRA DELLO STRETTO",
+            show: true,
+            icon: "",
+            description: "",
+            price: "5 €",
+          },
+          {
             name: "BITBURGER 50CL",
+            show: true,
+            icon: "",
+            description: "",
+            price: "5 €",
+          },
+          {
+            name: "CORONA",
             show: true,
             icon: "",
             description: "",
@@ -304,34 +326,6 @@ export const italianMenu = [
           },
           {
             name: "FREAK IPA",
-            show: true,
-            icon: "",
-            description: "",
-            price: "6 €",
-          },
-          {
-            name: "CORONA",
-            show: true,
-            icon: "",
-            description: "",
-            price: "5 €",
-          },
-          {
-            name: "BUDWEISER",
-            show: true,
-            icon: "",
-            description: "",
-            price: "4 €",
-          },
-          {
-            name: "BIRRA DELLO STRETTO",
-            show: true,
-            icon: "",
-            description: "",
-            price: "5 €",
-          },
-          {
-            name: "AYINGER CELEBRATOR",
             show: true,
             icon: "",
             description: "",
@@ -438,21 +432,21 @@ export const italianMenu = [
             price: "3 / 5 €",
           },
           {
-            name: "ACQUA PANNA",
+            name: "ACQUA PANNA 75cl",
             show: true,
             icon: "",
             description: "",
             price: "2,5 €",
           },
           {
-            name: "ACQUA FRIZZANTE SAN PELLEGRINO",
+            name: "ACQUA SAN PELLEGRINO 75cl",
             show: true,
             icon: "",
             description: "",
             price: "2,5 €",
           },
           {
-            name: "ACQUA LETE",
+            name: "ACQUA LETE 75cl",
             show: true,
             icon: "",
             description: "",
@@ -546,7 +540,7 @@ export const italianMenu = [
             price: "4 €",
           },
           {
-            name: "GAMBERETTI IN TEMPURA",
+            name: "GAMBERETTI IN TEMPURA *",
             show: true,
             icon: "",
             description: "Fry shrimps",
@@ -565,7 +559,7 @@ export const italianMenu = [
             show: true,
             icon: "",
             description: "Oil, Oregano, Salt, Pepper",
-            price: "2 €",
+            price: "3 €",
           },
           {
             name: "POMODORO, OLIO, ORIGANO, BASILICO",
@@ -801,4 +795,3 @@ export const italianMenu = [
     ],
   },
 ];
-
