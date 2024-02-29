@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MenuCard from "../components/menuCard";
-import { italianMenu } from "../constants/menuContent";
 import MenuDialog from "../components/menuDialog";
+import { getMenu } from "../webServices";
 
 const OUR_MENU = "Il nostro menu...";
 
 function Menu() {
+  const [italianMenu, setItalianMenu] = useState([]);
   const [selectedMenuSection, setSelectedMenuSection] = useState(NaN);
   const handleMenuCardClick = (index) => {
     setSelectedMenuSection(index);
@@ -15,6 +16,14 @@ function Menu() {
     setSelectedMenuSection(NaN);
     document.body.style.overflowY = "";
   };
+
+  useEffect(() => {
+    async function fetchData() {
+      const data = await getMenu();
+      setItalianMenu(data);
+    }
+    fetchData();
+  }, []);
 
   return (
     <section id="menu">

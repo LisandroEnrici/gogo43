@@ -9,14 +9,14 @@ function MenuDescription({ menuSection }) {
           <>
             <div className="menu-row">
               <h3>{subSection.title}</h3>
-              <h3>{subSection.icons.map((icon) => (
+              <h3>{subSection.icons?.map((icon) => (
                 <MenuIconList iconName={icon} />
               ))}</h3>
             </div>
             {subSection.clarifications ? (
               <span>{subSection.clarifications}</span>
             ) : null}
-            {subSection.content.filter(item => item.show).map((item) => {
+            {subSection.content?.filter(item => item.show)?.map((item) => {
               return (
                 <div className="menu-row">
                   <div>
