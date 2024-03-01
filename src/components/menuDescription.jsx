@@ -5,18 +5,20 @@ function MenuDescription({ menuSection }) {
   return (
     <>
       {menuSection.content.filter(subSection => subSection.show).map((subSection) => {
+        const sortedContent = [...subSection.content].sort((a, b) => a.name > b.name ? 1 : -1,);
+
         return (
           <>
             <div className="menu-row">
               <h3>{subSection.title}</h3>
-              <h3>{subSection.icons.map((icon) => (
+              <h3>{subSection.icons?.map((icon) => (
                 <MenuIconList iconName={icon} />
               ))}</h3>
             </div>
             {subSection.clarifications ? (
               <span>{subSection.clarifications}</span>
             ) : null}
-            {subSection.content.filter(item => item.show).map((item) => {
+            {sortedContent?.filter(item => item.show)?.map((item) => {
               return (
                 <div className="menu-row">
                   <div>

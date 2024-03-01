@@ -302,6 +302,7 @@ a.side-section {
   height: 100vh;
   height: 100dvh;
   top: 0;
+  overscroll-behavior: contain;
   z-index: 999;
   background-color: var(--color-primary);
 }
