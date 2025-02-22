@@ -5,8 +5,6 @@ function MenuDescription({ menuSection }) {
   return (
     <>
       {menuSection.content.filter(subSection => subSection.show).map((subSection) => {
-        const sortedContent = [...subSection.content].sort((a, b) => a.name > b.name ? 1 : -1,);
-
         return (
           <>
             <div className="menu-row">
@@ -18,7 +16,7 @@ function MenuDescription({ menuSection }) {
             {subSection.clarifications ? (
               <span>{subSection.clarifications}</span>
             ) : null}
-            {sortedContent?.filter(item => item.show)?.map((item) => {
+            {subSection.content?.filter(item => item.show)?.map((item) => {
               return (
                 <div className="menu-row">
                   <div>

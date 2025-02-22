@@ -94,6 +94,10 @@ a {
   cursor: pointer;
 }
 
+hr {
+  border-top: none;
+}
+
 .neon-text {
   text-shadow: var(--neon-shadow);
 }
@@ -292,6 +296,7 @@ a.side-section {
   width: 100%;
   max-width: 700px;
   text-align: center;
+  cursor: pointer
 }
 
 .dialog-container {
@@ -318,6 +323,7 @@ a.side-section {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  padding-bottom: 50px;
   overflow-y: scroll;
   box-shadow: inset 0px 10px 15px -10px black;
 }
