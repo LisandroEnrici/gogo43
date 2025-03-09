@@ -233,25 +233,15 @@ a.side-section {
 #grid-area-6 {
   grid-area: auto;
 }
-#grid-area-7 {
-  grid-area: auto;
-}
-#grid-area-8 {
-  grid-area: auto;
-}
-#grid-area-9 {
-  grid-area: auto;
-}
 
 @media only screen and (min-width: 768px) {
   .menu-cards-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "a e f f"
+      "a e b b"
       "a d f f"
-      "c c g h"
-      "b b i i";
+      "c c f f";
   }
   #grid-area-1 {
     grid-area: a;
@@ -270,15 +260,6 @@ a.side-section {
   }
   #grid-area-6 {
     grid-area: f;
-  }
-  #grid-area-7 {
-    grid-area: g;
-  }
-  #grid-area-8 {
-    grid-area: h;
-  }
-  #grid-area-9 {
-    grid-area: i;
   }
 }
 

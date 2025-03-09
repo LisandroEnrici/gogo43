@@ -6,7 +6,7 @@ For the sake of simplicity and cost-effectiveness, it has been decided to create
 
 ---
 
-## Project State
+## Project Status
 
 The first stable version is ready to deployment and can be found in the commit with the tag: "v1.0". 
 
