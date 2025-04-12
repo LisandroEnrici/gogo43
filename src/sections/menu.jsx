@@ -21,7 +21,8 @@ function Menu() {
   useEffect(() => {
     async function fetchData() {
       const data = await getMenu();
-      setItalianMenu(data);
+      const italianMenu = data.filter((menuSection) => menuSection.show);
+      setItalianMenu(italianMenu);
     }
     fetchData();
   }, []);
