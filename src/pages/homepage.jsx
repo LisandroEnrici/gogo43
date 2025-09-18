@@ -4,6 +4,7 @@ const TopButtons = lazy(() => import("../components/topButtons"));
 const Banner = lazy(() => import("../sections/banner"));
 const Footer = lazy(() => import("../sections/footer"));
 const MenuAccess = lazy(() => import("../components/menuAccess"));
+const BookAccess = lazy(() => import("../components/bookAccess"));
 const FindUs = lazy(() => import("../sections/findUs"));
 const AboutUs = lazy(() => import("../sections/aboutUs"));
 
@@ -13,6 +14,7 @@ function Homepage() {
       <TopButtons />
       <Banner />
       <MenuAccess />
+      <BookAccess />
       <AboutUs />
       <FindUs />
       <Footer />

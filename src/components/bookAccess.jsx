@@ -2,12 +2,12 @@ import React from "react";
 import { BsChevronDoubleRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-function MenuAccess() {
+function BookAccess() {
   return (
-    <section id="menu-access">
-      <Link to="menu" className="menu-access-container">
+    <section id="book-access">
+      <Link to="https://gogo43.superbexperience.com?utm_source=gogo43loungebarbistro.com" className="book-access-container">
         <div>
-          <h1>MENU</h1>
+          <h1>PRENOTA</h1>
         </div>
         <BsChevronDoubleRight className="arrow-icon" />
       </Link>
@@ -15,4 +15,4 @@ function MenuAccess() {
   );
 }
 
-export default MenuAccess;
+export default BookAccess;

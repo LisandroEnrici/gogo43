@@ -58,7 +58,7 @@ section {
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 100px;
+  font-size: 60px;
   line-height: 1;
   margin: 0;
 }
@@ -196,7 +196,8 @@ a.side-section {
   white-space: nowrap;
 }
 
-.menu-access-container {
+.menu-access-container,
+.book-access-container {
   display: flex;
   width: 100%;
   max-width: 700px;
@@ -204,9 +205,18 @@ a.side-section {
   justify-content: space-between;
 }
 
-#menu-access {
+#menu-access,
+#book-access {
   padding: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+  #menu-access h1,
+  #book-access h1 {
+    font-size: 80px;
+  }
+}
+
 .menu-cards-container {
   display: grid;
   grid-template-columns: auto;
